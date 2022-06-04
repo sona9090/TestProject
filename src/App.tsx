@@ -5,7 +5,6 @@ import { CatsDataType, CategoriesType } from "./types/Types";
 
 const App = () => {
   const [category, setCategory] = useState("");
-  // const [page, setPage] = useState("1");
   const [catsData, setCatsData] = useState([]);
 
   const [categs, setCategs] = useState([]);
